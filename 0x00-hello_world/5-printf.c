@@ -1,4 +1,4 @@
-#intclude "<stdio.h>"
+#include "<stdio.h>"
 /**
 * main - Entry Point
 * Discription: C Program using printf
