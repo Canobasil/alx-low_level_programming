@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
  * main - Entry Point
+ * Description: Code to print small alphabet.
  * return:  Always 0 (success)
  */
 int main(void)
-
 {
 
 
