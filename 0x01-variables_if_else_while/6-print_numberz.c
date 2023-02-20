@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
 /**
@@ -7,8 +8,7 @@
 int main(void)
 {
 int d;
-for (d = '0'; d <= '9'; d++)
+for (d = '0'; d <= '9'; d++) "\n";
 putchar(d);
-putchar("\n");
 return (0);
 }
