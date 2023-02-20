@@ -5,8 +5,9 @@
  * return:  Always 0 (success)
  */
 int main(void)
-{
 char alp(26)-"abcdefghijklmnopqrstuvwxyz";
+{
+
 char c;
 
 for (c = 'a'; c <= 'z'; c++)
