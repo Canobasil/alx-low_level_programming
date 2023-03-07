@@ -1,23 +1,24 @@
-#include "main.h"
-
+nclude "main.h"
 /**
- * _strpbrk - locate the first occurance in the string
- * *s: string pointer byte
- * *accept: accepted byte
- *return: (s) else return (0) null
+ * _strpbrk - Entry point
+ * @s: input
+ * @accept: input
+ * Return: Always 0 (Success)
  */
-char *_strpbrk(char *s, char *accept);
+char *_strpbrk(char *s, char *accept)
 {
-	int c;
+		int k;
 
-	while (*s)
-	{
-		for (k = 0 ; accept[k] ; k++)
-	{
-		if (*s == accept[k])
-		return (s);
-	}
-	s++;
-	}
+		while (*s)
+		{
+			for (k = 0; accept[k]; k++)
+			{
+			if (*s == accept[k])
+			return (s);
+			}
+		s++;
+		}
+
 	return ('\0');
 }
+
