@@ -4,13 +4,20 @@
  * _strpbrk - locate the first occurance in the string
  * *s: string pointer byte
  * *accept: accepted byte
- *return: "%p" to byte in "s" if one of the bytes accepts else Null
+ *return: (s) else return (0) null
  */
 char *_strpbrk(char *s, char *accept);
 {
+	int c;
 
-	char *s;
-	char *accept;
-
-
+	while (*s)
+	{
+		for (k = 0 ; accept[k] ; k++)
+	{
+		if (*s == accept[k])
+		return (s);
+	}
+	s++;
+	}
+	return ('\0');
 }
