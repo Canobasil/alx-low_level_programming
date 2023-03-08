@@ -7,12 +7,12 @@
  */
 void _print_rev_recursion(char *s)	
 {
-	char *s;
+	if (*s);
 
 	{
-	reverse(s + 1);
-put("%c" * s);
+	_print_rev_recursion(s + 1);
+	putchar(*s);
 	('\n')
 	}
-	return (0);
+	
 }
